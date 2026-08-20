@@ -1,0 +1,32 @@
+[Unit]
+Description=Self-Learning AI Trading Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=tradingbot
+Group=tradingbot
+WorkingDirectory=/opt/trading-bot
+ExecStart=/opt/trading-bot/venv/bin/python main.py
+Restart=always
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=trading-bot
+
+# Security hardening.
+NoNewPrivileges=yes
+ProtectSystem=strict
+ReadWritePaths=/opt/trading-bot
+PrivateTmp=yes
+
+# Environment file (contains API keys).
+EnvironmentFile=/opt/trading-bot/.env
+
+# Resource limits.
+LimitNOFILE=65536
+MemoryMax=1G
+
+[Install]
+WantedBy=multi-user.target

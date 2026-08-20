@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2026-02-17T21:29:05.636824+00:00",
+    "symbol": "BTC/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5334,
+    "auc_roc": 0.5621,
+    "f1": 0.3206,
+    "precision": 0.2794,
+    "skill": 0.0334,
+    "candles": 20000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-17T21:30:03.410119+00:00",
+    "symbol": "ETH/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5066,
+    "auc_roc": 0.5182,
+    "f1": 0.3233,
+    "precision": 0.3018,
+    "skill": 0.0066,
+    "candles": 20000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-17T21:31:58.440521+00:00",
+    "symbol": "BTC/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5334,
+    "auc_roc": 0.5621,
+    "f1": 0.3206,
+    "precision": 0.2794,
+    "skill": 0.0334,
+    "candles": 20000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-17T21:32:53.222651+00:00",
+    "symbol": "ETH/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5066,
+    "auc_roc": 0.5182,
+    "f1": 0.3233,
+    "precision": 0.3018,
+    "skill": 0.0066,
+    "candles": 20000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-17T21:38:37.148081+00:00",
+    "symbol": "BTC/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5312,
+    "auc_roc": 0.5636,
+    "f1": 0.3066,
+    "precision": 0.2816,
+    "skill": 0.0312,
+    "candles": 20000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-17T21:40:05.463780+00:00",
+    "symbol": "ETH/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5073,
+    "auc_roc": 0.5189,
+    "f1": 0.307,
+    "precision": 0.3037,
+    "skill": 0.0073,
+    "candles": 20000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-18T10:57:49.818567+00:00",
+    "symbol": "BTC/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5207,
+    "auc_roc": 0.574,
+    "f1": 0.2187,
+    "precision": 0.2647,
+    "skill": 0.0207,
+    "candles": 10000,
+    "version": "v3_honest"
+  },
+  {
+    "timestamp": "2026-02-18T10:58:19.474905+00:00",
+    "symbol": "ETH/USDT",
+    "timeframe": "1h",
+    "balanced_accuracy": 0.5085,
+    "auc_roc": 0.5008,
+    "f1": 0.2889,
+    "precision": 0.3065,
+    "skill": 0.0085,
+    "candles": 10000,
+    "version": "v3_honest"
+  }
+]
