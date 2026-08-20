@@ -1,13 +1,23 @@
-# Trading Bot
+# Algorithmic Trading Bot System
 
-Algorithmatisches Handels-System in Python mit Datenanalyse und Ausfuehrungseinheit.
+## Übersicht
+Der **Trading-Bot** ist ein automatisierte Handelssystem in Python mit integriertem Risikomanagement, WebSocket-Marktdatenverarbeitung und maschinellen Lernmodellen.
 
-## Funktionalitaeten
-- Uebersichtlicher Code und strukturierte Aufteilung der Komponenten.
-- Einfache Integration und Anpassung an bestehende Systeme.
+## Projektstruktur & Architektur
+- `main.py`: Haupteinstiegspunkt des Handelssystems.
+- `data_engine.py` & `ws_manager.py`: Live-Datenverarbeitung und WebSocket-Verbindung.
+- `execution_engine.py` & `risk_manager.py`: Orderausführung und Stop-Loss-Überwachung.
+- `ai_model.py` & `train.py`: Modellarchitektur und Trainingsskripte.
+- `optimizer.py` & `state_manager.py`: Systemoptimierung und Zustandsverwaltung.
+- `tests_phase1.py` bis `tests_phase4.py`: Testsuite für Systemkomponenten.
 
-## Nutzung
-Konfiguriere `config.py` und starte den Bot ueber die Hauptskripte.
+## Hauptfunktionalitäten
+- **Automatischer Handel**: Regelbasierte Ausführung von Aufträgen.
+- **Risikomanagement**: Überwachung von Expositionsgrenzen und Stopp-Marken.
+- **Echtzeit-Daten**: WebSocket-Verarbeitung von Börsen-Datenströmen.
+
+## Ausführung & Nutzung
+Nach Konfiguration der Parameter in `config.py` erfolgt der Start des Handelssystems über `python main.py`.
 
 ## Lizenz
 Dieses Projekt steht unter der MIT-Lizenz.
